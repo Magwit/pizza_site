@@ -1,0 +1,62 @@
+/*
+red : #FF4329
+yellow : #F2D90D
+greenish  : #66A590
+gray: #393337
+gray lighter tint: #4c474b
+*/
+
+body {
+  background-color: #393337;
+}
+
+h1 {
+  font-family: 'Ranchers', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #FF4329;
+}
+
+h2 {
+  font-family: 'Ranchers', sans-serif;
+  color: #F2D90D;
+
+}
+
+p, .delete, input[type='text'], input[type='number'] {
+  color: #F2D90D;
+  font-family: 'QuebecRegular', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px; 
+  background: #393337;
+  border: none;
+
+}
+
+.delete {
+  color: #FF4329;
+  cursor: pointer;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+    -webkit-appearance: textfield;
+    width: 60px;
+}
+
+.total {
+  text-decoration: underline;
+}
+
+#pizza-search {
+  background: #4c474b;
+  padding: 2px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
