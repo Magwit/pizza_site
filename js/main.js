@@ -4,7 +4,7 @@ $(document).ready(function () {
     var $items = $('#items');
     var $itemForm = $('.itemForm');
 
-    // AJAX to access API, and loop out the menu with item forms
+    // AJAX to access API on rawgit, and loop out the menu with item forms
     $.ajax({
         type: 'GET',
        // url: 'js/data.json',
